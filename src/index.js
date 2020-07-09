@@ -14,9 +14,10 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import "./resources/css/style.css";
 
 ReactDOM.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  // </React.StrictMode>
+  ,
   document.getElementById('root')
 );
 
