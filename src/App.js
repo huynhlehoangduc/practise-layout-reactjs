@@ -8,6 +8,8 @@ import State from './state';
 import ListKey from './list-keys';
 import Car from './car';
 import ListMovie from './list-movie';
+import Props from './props';
+import LiftingStateUpCart from './lifting-state-up';
 
 function App() {
 	return (
@@ -22,7 +24,9 @@ function App() {
 			<hr />
 			<ListKey /> */}
 			{/* <Car /> */}
-			<ListMovie />
+			{/* <ListMovie /> */}
+			{/* <Props/> */}
+			<LiftingStateUpCart/>
 		</div>
 	);
 }
